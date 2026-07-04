@@ -1,5 +1,5 @@
 
-// const defaultActionUrl = "https://formspree.io/f/xzbnelwk";
+document.addEventListener('DOMContentLoaded', () => {
 const defaultActionUrl = window.SNDIAN_FORM_ACTION_URL;
 
 // tiny toast/modal helper (no external libs)
@@ -130,4 +130,5 @@ document.addEventListener('DOMContentLoaded', () => {
 			}
 		});
 	});
+});
 });

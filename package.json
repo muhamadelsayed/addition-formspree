@@ -9,5 +9,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs"
+  "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muhamadelsayed/addition-formspree.git"
+  },
+  "bugs": {
+    "url": "https://github.com/muhamadelsayed/addition-formspree/issues"
+  },
+  "homepage": "https://github.com/muhamadelsayed/addition-formspree#readme"
 }
