@@ -1,6 +1,7 @@
 
-document.addEventListener('DOMContentLoaded', () => {
 const defaultActionUrl = window.SNDIAN_FORM_ACTION_URL;
+// console.log(defaultActionUrl);
+
 
 // tiny toast/modal helper (no external libs)
 function showToast(text, type = 'info', timeout = 4000) {
@@ -130,5 +131,4 @@ document.addEventListener('DOMContentLoaded', () => {
 			}
 		});
 	});
-});
 });
