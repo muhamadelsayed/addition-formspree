@@ -62,6 +62,10 @@ function showToast(text, type = 'info', timeout = 4000) {
 
 // Attach submit handlers to all forms matching .sndian-form
 document.addEventListener('DOMContentLoaded', () => {
+	let btn = document.querySelector('.contact-submit-btn');
+	if (btn) {
+		btn.setAttribute('type', 'submit');
+	}
 	const forms = document.querySelectorAll('.sndian-form');
 	forms.forEach(form => {
 		form.addEventListener('submit', async (e) => {
